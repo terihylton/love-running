@@ -1,0 +1,23 @@
+/*askerisk wildcard selector to override styles added by the browser*/
+
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*general styles*/
+body { min-height: 100vh;
+    display: flex;
+    flex-direction: color;
+
+}
+/*generic project style*/
+
+header { background-color: lightcoral;
+
+
+}
+main { background-color: lightblue;
+    flex: 1 0 auto;
+}
+

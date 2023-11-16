@@ -9,7 +9,8 @@
 
 body { min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     /*Generic project styles*/
     color: #3a3a3a;
     flex: 1 0 auto;
@@ -23,6 +24,7 @@ header { background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
+    width: 100%;
 
 
 }

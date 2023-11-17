@@ -75,7 +75,10 @@ nav { position:absolute;
 } 
 #nav-toggle:checked~nav {
     display: block;
-}
+} 
+#nav-toggle { display:none;
+
+} 
 .nav-toggle-label { font-style: 2rem;
 
 } 

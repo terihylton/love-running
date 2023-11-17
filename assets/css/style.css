@@ -9,8 +9,8 @@
 
 body { min-height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    
     /*Generic project styles*/
     color: #3a3a3a;
     flex: 1 0 auto;

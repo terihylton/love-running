@@ -38,6 +38,23 @@ h1 { font-family: 'Oswald', ans-serif;
     color:#252525;
 
 }
+.active { border-bottom: 1px solid #3a3a3a;
+
+} 
+#menu > li { margin-bottom: 1em;
+
+} 
+/*Navbar styles with drop-down toggle*/
+nav { position:absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px #3a3a3a;
+    display:none;
+    top: 100%;
+
+} 
 main { background-color: lightblue;
     /* Main element takes up surplus space */
     flex: 1 0 auto;

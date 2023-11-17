@@ -13,6 +13,7 @@ body { min-height: 100vh;
     
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
     flex: 1 0 auto;
 
 
@@ -85,7 +86,18 @@ nav { position:absolute;
 main { background-color: lightblue;
     /* Main element takes up surplus space */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-to 
+
+} 
+#social-networks { text-align:center;
+                 padding: 20px 0;
+                 display: flex;
+                 justify-content:space-evenly;
+                 list-style-type:  none;
+}  
+#social-networks { font-size:160%;
+                  padding: 5%;
+                  color:#3a3a3a;
 }
 
 /*media query:tablets and larger (768 px and up) */
@@ -119,4 +131,3 @@ main { background-color: lightblue;
     }  
     }  
     
-}

@@ -85,6 +85,7 @@ nav { position:absolute;
 main { background-color: lightblue;
     /* Main element takes up surplus space */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*media query:tablets and larger (768 px and up) */

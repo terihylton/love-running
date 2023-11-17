@@ -95,7 +95,7 @@ main { background-color: lightblue;
                  justify-content:space-evenly;
                  list-style-type:  none;
 }  
-#social-networks { font-size:160%;
+#social-networks i { font-size:160%;
                   padding: 5%;
                   color:#3a3a3a;
 }

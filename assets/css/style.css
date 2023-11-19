@@ -86,24 +86,26 @@ nav { position:absolute;
 main { 
     /* Main element takes up surplus space */
     flex: 1 0 auto;
-    margin-to 
+    margin-top: 47px;
 
-} 
+
+ 
 #hero {
-     height:  600px;
-     width: 100%;
-     background-color:lightgreen;
-}  
+     height: 600px
+     width 100%;
+     background-color: background: url("../images/hero-image.webp") no-repeat center center/cover;
+    }  
+} 
 #social-networks  { text-align: center;
                  padding: 0 20px 0;
                  display: flex;
                  justify-content: space-evenly;
-                 list-style-type: none; margin-left
-     }    
-#social-networks i { font-size:160%;
+                 list-style-type: none; 
+} 
+#social-networks i { font-size: 160%;
                   padding: 5%;
                   color:#3a3a3a;
-}
+}} 
 
 /*media query:tablets and larger (768 px and up) */
 @media screen and (min-width: 768px) { 

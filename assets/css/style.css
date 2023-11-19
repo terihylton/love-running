@@ -93,7 +93,7 @@ main {
 #hero {
      height: 600px
      width 100%;
-     background-color: background: url("../images/hero-image.webp") no-repeat center center/cover;
+     background-color: background = url("../images/hero-image.webp") no-repeat center center/cover;
     }  
 } 
 #social-networks  { text-align: center;
@@ -105,7 +105,7 @@ main {
 #social-networks i { font-size: 160%;
                   padding: 5%;
                   color:#3a3a3a;
-}} 
+}  
 
 /*media query:tablets and larger (768 px and up) */
 @media screen and (min-width: 768px) { 

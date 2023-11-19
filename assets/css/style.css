@@ -83,18 +83,23 @@ nav { position:absolute;
 .nav-toggle-label { font-style: 2rem;
 
 } 
-main { background-color: lightblue;
+main { 
     /* Main element takes up surplus space */
     flex: 1 0 auto;
     margin-to 
 
 } 
-#social-networks { text-align:center;
-                 padding: 20px 0;
-                 display: flex;
-                 justify-content:space-evenly;
-                 list-style-type:  none;
+#hero {
+     height: 600px;
+     width: 100%;
+     background-color:lightgreen;
 }  
+#social-networks  { text-align: center;
+                 padding: 0 20px 0;
+                 display: flex;
+                 justify-content: space-evenly;
+                 list-style-type: none; margin-left
+     }    
 #social-networks i { font-size:160%;
                   padding: 5%;
                   color:#3a3a3a;

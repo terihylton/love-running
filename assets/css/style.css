@@ -90,11 +90,27 @@ main {
 
 
  
-#hero {
+#hero { 
      height: 600px
      width 100%;
-     background-color: background = url("../images/hero-image.webp") no-repeat center center/cover;
-    }  
+     background: url("https://codeinstitute.s3.amazonaws.com/FoundamentasProjects/HTML-CSS/main-image.png")
+    no-repeat center center;
+    /*Animates zoom effect on loading the page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+      } 
+      
+      /*Creates the level of zoom for hero image*/
+      @keyframes hero-zoom {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        } 
+        }
+      }
 } 
 #social-networks  { text-align: center;
                  padding: 0 20px 0;
